@@ -1,6 +1,8 @@
 # Resume
 
-A resume generator for [JSON Resume](https://jsonresume.org/)
+A simple, and print-friendly resume generator for [JSON Resume](https://jsonresume.org/)
+
+Based of [BartoszJarocki/cv](https://github.com/BartoszJarocki/cv)
 
 ## Usage
 
