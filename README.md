@@ -11,7 +11,7 @@ Edit example.resume.json
 Run the Go application
 
 ```bash
-go run main.go example.resume.json
+go run main.go <resume.json> <output.html>
 ```
 
 You can edit the resume.templ but you need [templ](https://github.com/a-h/templ) installed to generate updated go code
