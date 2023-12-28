@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"net/http"
 
@@ -30,8 +29,6 @@ func main() {
 		}
 
 		file, _, err := r.FormFile("file")
-		fmt.Print(file)
-
 		if err != nil {
 			http.Error(w, "Error retrieving the file.", http.StatusInternalServerError)
 			return
