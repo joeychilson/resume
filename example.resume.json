@@ -15,14 +15,16 @@
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "neutralthoughts",
-                "url": ""
+                "network": "GitHub",
+                "username": "joeychilson"
             },
             {
-                "network": "SoundCloud",
-                "username": "dandymusicnl",
-                "url": "https://soundcloud.example.com/dandymusicnl"
+                "network": "Twitter",
+                "username": "joeychilson"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "satyanadella"
             }
         ]
     },
@@ -115,33 +117,60 @@
     "projects": [
         {
             "name": "StarGazer",
-            "description": "An interactive mobile app that uses augmented reality to educate users about constellations, planets, and celestial events. Point your device at the sky, and StarGazer identifies and provides information about the stars and planets you see.",
-            "url": "stargazer.example.com"
+            "description": "An interactive mobile app that uses augmented reality to educate users about constellations, planets, and celestial events.",
+            "url": "stargazer.example.com",
+            "keywords": [
+                "Mobile",
+                "AR",
+                "Education"
+            ]
         },
         {
             "name": "EcoChef",
-            "description": "An app that generates recipes based on leftovers in your fridge to reduce food waste. Users can input their available ingredients, and the app will suggest creative and delicious recipes.",
-            "url": "ecochef.example.com"
+            "description": "An app that generates recipes based on leftovers in your fridge to reduce food waste.",
+            "url": "ecochef.example.com",
+            "keywords": [
+                "Mobile",
+                "Web",
+                "AI"
+            ]
         },
         {
             "name": "TimeHopper",
-            "description": "A virtual reality experience that allows users to witness historical events as if they were there. This educational tool immerses users in different eras, offering a unique way to learn history.",
-            "url": "timehopper.example.com"
+            "description": "A virtual reality experience that allows users to witness historical events as if they were there.",
+            "url": "timehopper.example.com",
+            "keywords": [
+                "VR"
+            ]
         },
         {
             "name": "Fitness Quest",
-            "description": "An interactive game that turns daily fitness routines into an adventure. Users complete challenges, track their progress, and unlock achievements while improving their physical health.",
-            "url": "fitnessquest.example.com"
+            "description": "An interactive game that turns daily fitness routines into an adventure.",
+            "url": "fitnessquest.example.com",
+            "keywords": [
+                "Mobile",
+                "Game",
+                "Health"
+            ]
         },
         {
             "name": "SafeSpace",
-            "description": "An online platform that provides mental health support through anonymous chat rooms moderated by certified therapists. It's a safe place for people to discuss their issues and seek guidance.",
-            "url": "safespace.example.com"
+            "description": "An online platform that provides mental health support through anonymous chat rooms moderated by certified therapists.",
+            "url": "safespace.example.com",
+            "keywords": [
+                "Web",
+                "Mobile",
+                "Health"
+            ]
         },
         {
             "name": "GreenThumb",
-            "description": "An app for gardening enthusiasts that offers personalized advice on plant care, pest control, and seasonal gardening tips. It includes a community feature for users to share experiences and advice.",
-            "url": "greenthumb.example.com"
+            "description": "An app for gardening enthusiasts that offers personalized advice on plant care, pest control, and seasonal gardening tips.",
+            "url": "greenthumb.example.com",
+            "keywords": [
+                "Web",
+                "Mobile"
+            ]
         }
     ]
 }

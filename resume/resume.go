@@ -105,7 +105,8 @@ type Reference struct {
 }
 
 type Project struct {
-	Name        string `json:"name"`
-	Description string `json:"description"`
-	URL         string `json:"url"`
+	Name        string   `json:"name"`
+	Description string   `json:"description"`
+	URL         string   `json:"url"`
+	Keywords    []string `json:"keywords"`
 }
