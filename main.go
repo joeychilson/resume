@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/joeychilson/cv/resume"
+	"github.com/joeychilson/resume/resume"
 )
 
 func main() {

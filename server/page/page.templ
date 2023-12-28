@@ -1,0 +1,60 @@
+package page
+
+templ Page() {
+	<html>
+		<head>
+			<meta charset="utf-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1"/>
+			<title>Resume Generator</title>
+			<script src="https://cdn.tailwindcss.com"></script>
+		</head>
+		<body class="flex justify-center items-center h-screen bg-gray-100">
+			<div class="rounded-lg border bg-white text-gray-800 shadow-sm">
+				<div class="rounded-lg border text-gray-700 shadow-sm">
+					<div class="flex flex-col space-y-1.5 p-6">
+						<h3 class="font-semibold tracking-tight text-2xl">Upload Resume</h3>
+						<p class="text-sm text-gray-500">
+							Please upload your Resume JSON file below. Make sure the file is in the correct format.
+						</p>
+					</div>
+					<form action="/resume" method="POST" enctype="multipart/form-data">
+						<div class="p-6 space-y-4">
+							<div class="grid w-full max-w-sm items-center gap-1.5">
+								<input
+ 									class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+ 									id="file"
+ 									name="file"
+ 									accept=".json"
+ 									type="file"
+ 									required
+								/>
+							</div>
+							<div class="mt-4">
+								<a
+ 									href="/example"
+ 									class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-blue-600 hover:text-blue-700 underline-offset-4 hover:underline h-8 px-2 py-2"
+								>
+									Example Resume
+								</a>
+								<a
+ 									href="/example.resume.json"
+ 									class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-blue-600 hover:text-blue-700 underline-offset-4 hover:underline h-8 px-2 py-2"
+								>
+									Example Resume JSON File
+								</a>
+							</div>
+						</div>
+						<div class="flex items-center p-6">
+							<button
+ 								class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-600 text-white hover:bg-blue-700 h-10 px-4 py-2 w-full"
+ 								type="submit"
+							>
+								Upload File
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</body>
+	</html>
+}

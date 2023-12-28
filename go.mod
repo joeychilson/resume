@@ -1,4 +1,4 @@
-module github.com/joeychilson/cv
+module github.com/joeychilson/resume
 
 go 1.21.5
 
